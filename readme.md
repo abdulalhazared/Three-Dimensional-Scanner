@@ -1,6 +1,8 @@
 2d to 3d converter
 ---
 
-This application loads a raster image png with transparency on white color then scans the image from 4 sides saving collision points to a log file.
-Pressing esc the scan finishes and another procedure render to a 3d space the saved points.
-
+This application loads a raster png with background transparency (white)  then scans the image from four sides (up,down,left,right) saving  points to a log file.
+When scan finishes and another procedure renders the saved points to a 3d window (using VPython).
+This application requires the following python modules:
+-- VPython
+-- PyGlet
